@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ExemploUseState from './hooks/ExemploUseState';
+import ExemploTxt from './hooks/Exemplo04_useState';
+import Exemplo09_useReducer from './hooks/Exemplo09_useReducer';
+import { FcRedo, FcProcess, FcSupport } from "react-icons/fc";
 
-function App() {
+function App(Icon, size) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Exemplo09_useReducer/>
+     <ExemploUseState/>
+     <ExemploTxt/>
+    
     </div>
   );
 }
