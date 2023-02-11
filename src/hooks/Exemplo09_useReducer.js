@@ -44,11 +44,11 @@ function Exemplo09_useReducer(){
             
             <h1>useReducer</h1>
             <h1>{contador}</h1>
-            <CustomButtom nameButton='incrementar' size={30} Icon={FcUp} onClick={e=>executarFuncao('incrementar')}/>
+            <CustomButtom nameButton='incrementar' size={30} Icon={FcUp} onClick={e=>executarFuncao('incrementar')} />
             <CustomButtom nameButton='decrementar' size={30} Icon={FcDown} onClick={e=>executarFuncao('decrementar')}/>
-            <CustomButtom nameButton='zerar' size={30} Icon={FcUndo} onClick={e=>executarFuncao('zerar')}customStyle={{backgroundColor:'red'}}/>
-            <CustomButtom nameButton='incrementar +10' size={30} Icon={FcUp} onClick={e=>executarFuncao('incrementar10')} customStyle={{backgroundColor:'red'}}/>
-            <CustomButtom nameButton='decrementar -10' size={30} Icon={FcDown} onClick={e=>executarFuncao('decrementar10')} customStyle={{backgroundColor:'red'}}/>
+            <CustomButtom nameButton='zerar' size={30} Icon={FcUndo} onClick={e=>executarFuncao('zerar')}/>
+            <CustomButtom nameButton='incrementar +10' size={30} Icon={FcUp} onClick={e=>executarFuncao('incrementar10')}/>
+            <CustomButtom nameButton='decrementar -10' size={30} Icon={FcDown} onClick={e=>executarFuncao('decrementar10')}/>
             <hr/>
         </div>
     )

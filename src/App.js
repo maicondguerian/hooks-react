@@ -2,15 +2,16 @@ import './App.css';
 import ExemploUseState from './hooks/ExemploUseState';
 import ExemploTxt from './hooks/Exemplo04_useState';
 import Exemplo09_useReducer from './hooks/Exemplo09_useReducer';
-import { FcRedo, FcProcess, FcSupport } from "react-icons/fc";
+import NewCarousel from './hooks/ElasticCarouseel/Caroussel';
 
-function App(Icon, size) {
+
+function App() {
   return (
     <div className="App">
-     <Exemplo09_useReducer/>
-     <ExemploUseState/>
-     <ExemploTxt/>
-    
+      <Exemplo09_useReducer/>
+      <ExemploUseState/>
+      <ExemploTxt/>
+      <NewCarousel/>
     </div>
   );
 }
